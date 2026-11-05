@@ -4,18 +4,44 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- C'est moi qui crée ce page -NICO -->
     <title>Selection de Produits</title>
   </head>
   <body>
     <header>
-      <div id="icon"></div>
-      <nav>
+      <img class="icon" id="logo" src="/src/assets/logo.svg" alt="Logo"></img>
+      <nav class="navWeb">
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="selectionProduits.html">Selection de Produits</a></li>
+          <li>
+            <a href="index.html"><img src="/src/assets/home.svg" alt="Accueil"><span>Accueil</span></a>
+          </li>
+          <li>
+            <a href="produits.html"><img src="/src/assets/about.svg" alt="À propos"><span>À propos</span></a>
+          </li>
+          <li>
+            <a href="selectionProduits.html"><img  src="/src/assets/products.svg" alt="Produits"><span>Produits</span></a>
+          </li>
+          <li>
+            <a href="panier.html"><img src="/src/assets/cart.svg" alt="Panier"><span>Panier</span></a>
+          </li>
+          <!-- je peux ajouter des icones aussi, peut-etre pour la version mobile -->
+          <!-- les icones sont fermés dans la version web -->
+          <!-- la classe de NAV controlle l'affichage des icones-->
         </ul>
       </nav>
     </header>
+    <div class="containerProduits">
+      <h1>Produits</h1>
+      <div class="grilleProduits">
+        <div class="carteProduit">
+          <img> 
+          <h2>Produit 1</h2>
+          <p>Description</p>
+          <button>Ajouter au Panier</button>
+        <!-- Ajouter plus de cartes de produits selon les besoins -->
+        </div>
+      </div>
+    </div>
     <footer> 
     </footer>   
     <script type="module" src="/src/main.js"></script>
