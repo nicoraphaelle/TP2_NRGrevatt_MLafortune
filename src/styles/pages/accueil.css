@@ -5,3 +5,9 @@
     object-fit: cover;
     display: block;
 }
+
+.accueil .produits-tendance {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
