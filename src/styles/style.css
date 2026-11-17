@@ -1,10 +1,11 @@
-@import 'base/global.css';       /* nico */
+@import 'base/global.css';            /* nico */
 
-@import 'components/card.css';   /* nico */
+@import 'components/card.css';        /* nico */
+@import 'components/container.css';   /* nico */
 
-@import 'layouts/header.css';    /* nico */
-@import 'layouts/footer.css';    /* nico */
+@import 'layouts/header.css';         /* nico */
+@import 'layouts/footer.css';         /* nico */
 
-@import 'pages/accueil.css';     /* nico */
-@import 'pages/selection.css';   /* nico */
+@import 'pages/accueil.css';          /* nico */
+@import 'pages/selection.css';        /* nico */
 
