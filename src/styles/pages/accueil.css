@@ -1,0 +1,7 @@
+.accueil article img {
+    width: 100%;
+    max-width: 320px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
