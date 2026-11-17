@@ -16,3 +16,14 @@
     width: 320px;
     max-width: 100%;
 }
+
+.accueil main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    box-sizing: border-box;
+}
+
+.accueil main > section {
+    margin-bottom: 64px;
+}
