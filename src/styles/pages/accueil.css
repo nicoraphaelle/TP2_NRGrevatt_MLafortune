@@ -11,3 +11,8 @@
     gap: 24px;
     flex-wrap: wrap;
 }
+
+.accueil .produits-tendance article {
+    width: 320px;
+    max-width: 100%;
+}
