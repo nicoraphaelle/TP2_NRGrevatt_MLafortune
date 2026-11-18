@@ -1,4 +1,5 @@
 .container {
+    margin-top: 17%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,4 +16,27 @@
     width: 95%;
     gap: 20px;
 }
+
+@media screen and (380px < width < 500px){
+    .container{
+        margin-top: 25%;
+    }
+}@media screen and (width < 380px){
+    .container{
+        margin-top: 35%;
+    }
+    
+}
+
+@media screen and (width < 545px){
+    .container{
+        gap: 10px;
+    }
+    .containerRow{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 
