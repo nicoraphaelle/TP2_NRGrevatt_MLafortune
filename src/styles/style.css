@@ -1,8 +1,9 @@
 @import 'base/global.css';            /* nico */
 
-@import 'components/button.css';        /* nico */
+@import 'components/button.css';      /* nico */
 @import 'components/card.css';        /* nico */
 @import 'components/container.css';   /* nico */
+@import 'components/nav.css';         /* nico */
 
 @import 'layouts/header.css';         /* nico */
 @import 'layouts/footer.css';         /* nico */
