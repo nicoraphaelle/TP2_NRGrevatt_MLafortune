@@ -1,4 +1,5 @@
 @import 'base/global.css';            /* nico */
+@import 'base/typography.css';        /* nico */
 
 @import 'components/button.css';      /* nico */
 @import 'components/card.css';        /* nico */

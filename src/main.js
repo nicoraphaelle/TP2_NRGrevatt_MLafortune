@@ -5,7 +5,7 @@ const buttonFiltres = document.querySelector('#buttonFiltres');
 const iconFiltres = document.querySelector('#iconFiltres');
 const containerFiltres = document.querySelector('#containerFiltres');
 
-// Fonctionalité pour le bouton de filtres (nico)
+// Fonctionalité pour le bouton de afficher/cacher filtres (par nico)
 buttonFiltres?.addEventListener('click', () => {
   iconFiltres?.classList.toggle('flipped');
     if (containerFiltres?.classList.contains('closed')) {

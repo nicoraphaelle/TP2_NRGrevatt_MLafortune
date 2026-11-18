@@ -1,0 +1,31 @@
+body {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+p {
+	margin-block: 0 1em;
+}
+
+small {
+	font-size: 0.875em;
+}
