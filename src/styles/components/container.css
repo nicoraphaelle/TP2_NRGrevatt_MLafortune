@@ -12,37 +12,40 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: start;
-    width: 90%;
+    width: 95%;
     gap: 20px;
+    
 }
 
 .barre {
-    background-color: #EDF6F3;
-    color:#0B1520;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     height:40px;
     margin: 10px 0;
-    border-radius: 5px;
+    border-bottom: 1px solid #246b6b;
+    border-top: 1px solid #246b6b;
 }
 
 #containerFiltres {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 10%;
-    border: 1px solid #EDF6F3;
-    border-radius: 5px;
+    
+    width: 15%;
+    border-right: 1px solid #246b6b;
+    
 }
 .boxFiltres{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    margin: 10px;
-    width: 100%;
+    margin: 10px 0;
+    width: 95%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #246b6b;
 }
 .boxFiltres h3 {
     margin-top: 0;
