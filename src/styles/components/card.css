@@ -14,7 +14,8 @@
 
 .carteProduit img {
   width: 100%;
-  height: 180px;
+  height: 80%;
+  /* garder les proportions de l'image */
   object-fit: cover;
   border-radius: 5px;
 }
