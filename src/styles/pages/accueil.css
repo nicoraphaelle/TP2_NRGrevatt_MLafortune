@@ -91,3 +91,19 @@
     outline: 3px solid #ffffff;
     outline-offset: 4px;
 }
+
+.accueil .categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+}
+
+.accueil .categories a {
+    display: block;
+    padding: 16px 20px;
+    border: 1px solid #5ee0cf;
+    border-radius: 8px;
+}
