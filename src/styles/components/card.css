@@ -1,0 +1,25 @@
+.carteProduit {
+  background-color:#EDF6F3;
+  color:  #0d1926;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #3db8b87e;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carteProduit[hidden] {
+  display: none;
+}
+
+.carteProduit img {
+  width: 100%;
+  height: 80%;
+  /* garder les proportions de l'image */
+  object-fit: cover;
+  border-radius: 5px;
+}

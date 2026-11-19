@@ -1,0 +1,14 @@
+nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+ul li {
+  list-style: none;
+}
