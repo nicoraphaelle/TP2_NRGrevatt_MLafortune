@@ -1,0 +1,26 @@
+RESSOURCES — LA CALE NOIRE
+
+Notes de cours
+Présentations et exemples du cours Interactivité pour le web,
+notamment les semaines 06, 07 et 08.
+
+Images de l’accueil
+
+Poisson-pêcheur — anglerfish.jpg
+Auteur : Ryan Somma
+Licence : CC BY 2.0
+https://commons.wikimedia.org/wiki/File:Melanocetus_johnsonii1.jpg
+
+Poisson-globe — pufferfish.jpg
+Auteur : Diego Delso
+Licence : CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Botete_negro_(Arothron_meleagris),_Cabo_Pulmo,_Baja_California,_México,_2024-12-19,_DD_54.jpg
+
+Requin-marteau — hammerHead.jpg
+Source, auteur et licence à compléter avec Nico.
+
+Recherches présentes dans le code de Nico
+À confirmer et compléter par Nico :
+https://www.w3schools.com/js/js_object_constructors.asp
+https://www.w3schools.com/js/js_array_constructor.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
