@@ -35,6 +35,7 @@
     margin: 0 auto;
     padding: 24px 20px;
     box-sizing: border-box;
+    position: static;
 }
 
 .accueil header nav ul {
@@ -117,4 +118,9 @@
     .accueil main {
         padding: 24px 16px;
     }
+}
+
+.accueil header {
+    position: static;
+    height: auto;
 }
