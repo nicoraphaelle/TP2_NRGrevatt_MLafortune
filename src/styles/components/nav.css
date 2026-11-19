@@ -12,3 +12,21 @@ ul{
 ul li {
   list-style: none;
 }
+
+/* pour icons: accueil et produits */
+ul li a img {
+    height:10%;
+    width:auto;
+}
+/* pour icon: panier, qui n'a pas un lien */
+ul li img {
+    height:10%;
+    width:auto;
+}
+
+/* afficher les icons seulement dans mobile */
+ @media screen and (width > 545px) {
+    ul li a img{
+        display:none;
+    }
+ }
