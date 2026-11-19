@@ -1,11 +1,14 @@
 import './styles/style.css';
 import {gsap} from 'gsap';
 
+// Maxime : fait apparaître le titre, le texte et le bouton du hero un après l'autre
 gsap.from(".accueil .hero h1", { y: 30, opacity: 0, duration: 1 });
 
 gsap.from(".accueil .hero p", { y: 30, opacity: 0, duration: 1, delay: 0.2 });
 
 gsap.from(".accueil .hero a", { y: 30, opacity: 0, duration: 1, delay: 0.4 });
+
+
 const buttonFiltres = document.querySelector('#buttonFiltres');
 const iconFiltres = document.querySelector('#iconFiltres');
 const containerFiltres = document.querySelector('#containerFiltres');
