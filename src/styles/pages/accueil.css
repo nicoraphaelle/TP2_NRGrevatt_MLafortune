@@ -60,3 +60,15 @@
 .accueil a {
     color: #5ee0cf;
 }
+
+.accueil .hero {
+    padding: 64px 24px;
+    background-color: #102b36;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.accueil .hero p {
+    margin-bottom: 24px;
+    font-size: 1.125rem;
+}
