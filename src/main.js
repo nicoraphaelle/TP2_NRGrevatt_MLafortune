@@ -128,5 +128,5 @@ window.addEventListener("load", displayProducts);
 //mettre au jour les produits dans le display
 document.querySelectorAll('#containerFiltres input')
   .forEach(filter => {
-    filter.addEventListener("change", displayProducts);
+    filter.addEventListener("input", displayProducts);
   });
