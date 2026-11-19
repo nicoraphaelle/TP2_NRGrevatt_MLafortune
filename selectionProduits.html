@@ -46,8 +46,10 @@
         <div class="closed" id="containerFiltres">
           <div class="boxFiltres">
             <h3>Disponibilité</h3>
-            <label><input type="checkbox" name="availability" value="inStock">En stock</label>
-            <label><input type="checkbox" name="availability" value="outOfStock">En rupture de stock</label>
+            <label><input type="checkbox" name="availability" value="true">En stock</label>
+            <!-- true = disponsible -->
+            <label><input type="checkbox" name="availability" value="false">En rupture de stock</label>
+            <!-- false = pas disponsible -->
           </div>
           <div class="boxFiltres">
             <h3>Type</h3>
@@ -57,8 +59,10 @@
           </div>
           <div class="boxFiltres">
             <h3>Habitat</h3>
-            <label><input type="checkbox" name="habitat" value="saltwater">Eau Salée</label>
-            <label><input type="checkbox" name="habitat" value="freshwater">Eau Douce</label>
+            <label><input type="checkbox" name="habitat" value="true">Eau Salée</label> 
+            <!-- true = eau salee -->
+            <label><input type="checkbox" name="habitat" value="false">Eau Douce</label>
+            <!-- false = eau douce -->
           </div>
         </div>
         <!-- Grille de produits -->
@@ -137,7 +141,7 @@
             <p>Prix</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
-          <div class="carteProduit" id="hammerHeadShark">
+          <div class="carteProduit" id="hammerHead">
             <img src="/src/assets/creaturesMarines/hammerHead.jpg" alt="Requin Marteau"> 
             <h2>Requin Marteau</h2>
             <p>Prix</p>
