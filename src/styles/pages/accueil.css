@@ -107,3 +107,12 @@
     border: 1px solid #5ee0cf;
     border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+    .accueil .hero {
+        padding: 40px 16px;
+    }
+    .accueil main {
+        padding: 24px 16px;
+    }
+}
