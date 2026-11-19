@@ -1,3 +1,5 @@
+/* Maxime: styles de la page d'accueil et adaptation mobile */
+
 .accueil article img {
     width: 100%;
     max-width: 320px;
@@ -26,4 +28,103 @@
 
 .accueil main > section {
     margin-bottom: 64px;
+}
+
+.accueil header nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    position: static;
+}
+
+.accueil header nav ul {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accueil footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #394452;
+}
+
+.accueil {
+    background-color: #07151c;
+    color: #d9e7ec;
+}
+
+.accueil a {
+    color: #5ee0cf;
+}
+
+.accueil .hero {
+    padding: 64px 24px;
+    background-color: #102b36;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.accueil .hero p {
+    margin-bottom: 24px;
+    font-size: 1.125rem;
+}
+
+.accueil .hero a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5ee0cf;
+    color: #07151c;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.accueil .hero a:hover {
+    background-color: #9af3e7;
+}
+
+.accueil a:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+.accueil .categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+}
+
+.accueil .categories a {
+    display: block;
+    padding: 16px 20px;
+    border: 1px solid #5ee0cf;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .accueil .hero {
+        padding: 40px 16px;
+    }
+    .accueil main {
+        padding: 24px 16px;
+    }
+}
+
+.accueil header {
+    position: static;
+    height: auto;
+}
+
+.accueil header nav a {
+    color: #07151c;
 }
