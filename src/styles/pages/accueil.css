@@ -72,3 +72,13 @@
     margin-bottom: 24px;
     font-size: 1.125rem;
 }
+
+.accueil .hero a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5ee0cf;
+    color: #07151c;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+}
