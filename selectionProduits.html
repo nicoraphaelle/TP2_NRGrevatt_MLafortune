@@ -8,21 +8,19 @@
     <title>Selection de Produits</title>
   </head>
   <body>
+
     <header>
-      <img class="icon" id="logo" src="/src/assets/logo.svg" alt="Logo"></img>
-      <nav class="navWeb">
+      <nav>
+        <img class="icon" id="logo" src="/src/assets/logo.svg" alt="Logo"></img>
         <ul>
           <li>
-            <a href="index.html"><img src="/src/assets/home.svg" alt="Accueil"><span>Accueil</span></a>
+            <a href="index.html"><img src="/src/assets/icons/accueil.png" alt="Accueil"><span >Accueil</span></a>
           </li>
           <li>
-            <a href="produits.html"><img src="/src/assets/about.svg" alt="À propos"><span>À propos</span></a>
+            <a href="selectionProduits.html"><img src="/src/assets/icons/poissonProduit.png" alt="Produits"><span>Produits</span></a>
           </li>
           <li>
-            <a href="selectionProduits.html"><img  src="/src/assets/products.svg" alt="Produits"><span>Produits</span></a>
-          </li>
-          <li>
-            <a href="panier.html"><img src="/src/assets/cart.svg" alt="Panier"><span>Panier</span></a>
+            <img src="/src/assets/icons/panier.png" alt="Panier"><span>Panier</span>
           </li>
           <!-- je peux ajouter des icones aussi, peut-etre pour la version mobile -->
           <!-- les icones sont fermés dans la version web -->
@@ -30,20 +28,25 @@
         </ul>
       </nav>
     </header>
+
     <!-- Contenu principal -->
-    <div class="container">
-      <h1>Produits</h1>
+    <main class="container">
+
+      <h1>Catalogue de Produits</h1>
+
       <!-- Barre qui a le label de filtres et un barre de recherche (facultatif) -->
       <div class="barre"> 
         <h2>Filtres</h2>
         <button id="buttonFiltres">
-          <img src="src/assets/iconFiltres.png" alt="Filtres" id="iconFiltres">
+          <img src="src/assets/icons/iconFiltres.png" alt="Filtres" id="iconFiltres">
         </button>
       </div>
+
       <!-- Contient le container pour les filtres et la grille de produits -->
       <div class="containerRow">
+
         <!-- Container pour les filtres, caché par défaut -->
-        <div class="closed" id="containerFiltres">
+        <section class="closed" id="containerFiltres">
           <div class="boxFiltres">
             <h3>Disponibilité</h3>
             <label><input type="checkbox" name="availability" value="true">En stock</label>
@@ -64,106 +67,111 @@
             <label><input type="checkbox" name="habitat" value="false">Eau Douce</label>
             <!-- false = eau douce -->
           </div>
-        </div>
+        </section>
+
         <!-- Grille de produits -->
-        <div class="grille">
+        <section class="grille">
           <!-- Carte de produit -->
           <div class="carteProduit" id="alligatorAlbino">
             <img src="/src/assets/creaturesMarines/alligatorAlbino.jpg" alt="Alligator Albino"> 
             <h2>Alligator Albino</h2>
-            <p>Prix</p>
+            <p>545,00 $</p>
            <button class="AjouterAuPanier">Ajouter au Panier</button>
             <!-- Ajouter plus de cartes de produits selon les besoins -->
           </div>
           <div class="carteProduit" id="dragonEel">
             <img src="/src/assets/creaturesMarines/dragonEel.jpg" alt="Anguille Dragon"> 
             <h2>Anguille Dragon</h2>
-            <p>Prix</p>
+            <p>229,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="electricEel">
             <img src="/src/assets/creaturesMarines/electricEel.jpg" alt="Anguille Electrique"> 
             <h2>Anguille Electrique</h2>
-            <p>Prix</p>
+            <p>210,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="barracuda">
             <img src="/src/assets/creaturesMarines/barracuda.jpg" alt="Barracuda"> 
             <h2>Barracuda</h2>
-            <p>Prix</p>
+            <p>416,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="coneSnail">
             <img src ="/src/assets/creaturesMarines/coneSnail.jpg" alt="Conidé"> 
             <h2>Conidé</h2>
-            <p>Prix</p>
+            <p>110,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="moray">
             <img src="/src/assets/creaturesMarines/moray.jpg" alt="Murène"> 
             <h2>Murène</h2>
-            <p>Prix</p>
+            <p>452,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="giantPacificOctopus">
             <img src="/src/assets/creaturesMarines/giantPacificOctopus.jpg" alt="Pieuvre de Pacifique"> 
             <h2>Pieuvre de Pacifique</h2>
-            <p>Prix</p>
+            <p>400,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="blueBlanketOctopus">
             <img src="/src/assets/creaturesMarines/blueBlanketOctopus.jpg" alt="Pieuvre Violacée"> 
             <h2>Pieuvre Violacée</h2>
-            <p>Prix</p>
-            <button class="AjouterAuPanier">Ajouter au Panier</button>
-          </div>
-          <div class="carteProduit" id="anglerFish">
-            <img src="/src/assets/creaturesMarines/anglerFish.jpg" alt="Poisson Lanterne"> 
-            <h2>Poisson Lanterne</h2>
-            <p>Prix</p>
+            <p>360,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="lionFish">
             <img src="/src/assets/creaturesMarines/lionFish.jpg" alt="Poisson Lion">
             <h2>Poisson Lion</h2>
-            <p>Prix</p>
+            <p>185,00 $</p>
            <button class="AjouterAuPanier">Ajouter au Panier</button>
+          </div>
+          <div class="carteProduit" id="anglerFish">
+            <img src="/src/assets/creaturesMarines/anglerFish.jpg" alt="Poisson Lanterne"> 
+            <h2>Poisson-pêcheur abyssal</h2>
+            <p>249,00 $</p>
+            <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="stoneFish">
             <img src="/src/assets/creaturesMarines/stoneFish.jpg" alt="Poisson Pierre"> 
             <h2>Poisson Pierre</h2>
-            <p>Prix</p>
+            <p>135,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="freshwaterStingray">
             <img src="/src/assets/creaturesMarines/freshwaterStingray.jpg" alt="Raie d'Eau Douce"> 
             <h2>Raie d'Eau Douce</h2>
-            <p>Prix</p>
+            <p>163,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="hammerHead">
             <img src="/src/assets/creaturesMarines/hammerHead.jpg" alt="Requin Marteau"> 
             <h2>Requin Marteau</h2>
-            <p>Prix</p>
+            <p>1 499,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="seaSnake">
             <img src="/src/assets/creaturesMarines/seaSnake.jpg" alt="Serpent Marin"> 
             <h2>Serpent Marin</h2>
-            <p>Prix</p>
+            <p>345,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
           <div class="carteProduit" id="snappingTurtle">
             <img src="/src/assets/creaturesMarines/snappingTurtle.jpg" alt="Tortue Serpentine"> 
             <h2>Tortue Serpentine</h2>
-            <p>Prix</p>
+            <p>222,00 $</p>
             <button class="AjouterAuPanier">Ajouter au Panier</button>
           </div>
-        </div>
-      </div>
-    </div>
-    <footer> 
-    </footer>   
+        </section>
+
+      </div> 
+    </main>
+
+    <footer>
+    <p>&copy; 2026 La Cale Noire. Tous droits réservés.</p>
+    </footer>  
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

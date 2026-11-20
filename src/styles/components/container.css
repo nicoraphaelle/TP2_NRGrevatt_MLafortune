@@ -17,20 +17,21 @@
     gap: 20px;
 }
 
-@media screen and (545px < width < 700px){
+/* media querie pour main */
+@media screen and (600px < width < 900px){
+    .container{
+        margin-top: 10%;
+    }
+}
+@media screen and (400px < width < 600px){
     .container{
         margin-top: 15%;
     }
 }
-@media screen and (380px < width < 545px){
+@media screen and (width < 400px){
     .container{
-        margin-top: 25%;
+        margin-top: 22.5%;
     }
-}@media screen and (width < 380px){
-    .container{
-        margin-top: 35%;
-    }
-    
 }
 
 @media screen and (width < 545px){
