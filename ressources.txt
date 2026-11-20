@@ -29,12 +29,14 @@ https://www.w3schools.com/js/js_array_constructor.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 
 ---Nico Raphaelle----------------------------------------------------------
-Notes de cours
+Notes de cours!
++
 mDN:
 // .filter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 // .map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 // conditional operator https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 
++
 W3Schools:
 // object constructor: https://www.w3schools.com/js/js_object_constructors.asp
 // forEach() https://www.w3schools.com/jsref/jsref_foreach.asp
@@ -43,6 +45,7 @@ W3Schools:
 // js display: https://www.w3schools.com/jsref/prop_style_display.asp
 // CSS grid: https://www.w3schools.com/css/css_grid.asp
 
++
 Icones:
 Kracken: https://www.vecteezy.com/vector-art/71570614-mythical-kraken-sea-monster-silhouette
 accueil: https://www.vecteezy.com/vector-art/26612607-minimal-home-icon-simple-solid-style-web-homepage-website-house-internet-app-ui-design-home-page-button-interface-concept-glyph-vector-illustration-isolated-on-white-background-eps-10
@@ -50,6 +53,7 @@ panier:  https://icons8.com/icons/set/cart
 iconFiltres: https://www.svgrepo.com/svg/379926/adjust-horizontal-settings
 poissonProduit: https://icons8.com/icon/x6G1X08IvoOe/fish
 
++
 CreaturesMarins: 
 alligator: https://www.pexels.com/photo/sunbathing-albino-alligator-25466529/
 angler: https://share.google/zuThNlhZl8fudOifO
