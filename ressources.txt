@@ -2,6 +2,7 @@ L’IA m’a aussi aidé à rédiger et à organiser ce fichier ressources.txt.
 
 RESSOURCES — LA CALE NOIRE
 
+---Maxime----------------------------------------------------------------
 Notes de cours
 Présentations et exemples du cours Interactivité pour le web,
 notamment les semaines 06, 07 et 08.
@@ -26,3 +27,41 @@ Recherches présentes dans le code de Nico
 https://www.w3schools.com/js/js_object_constructors.asp
 https://www.w3schools.com/js/js_array_constructor.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+---Nico Raphaelle----------------------------------------------------------
+Notes de cours
+mDN:
+// .filter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+// .map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+// conditional operator https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+W3Schools:
+// object constructor: https://www.w3schools.com/js/js_object_constructors.asp
+// forEach() https://www.w3schools.com/jsref/jsref_foreach.asp
+// CSS liens: https://www.w3schools.com/css/css_link.asp
+// CSS display: https://www.w3schools.com/cssref/pr_class_display.php
+// js display: https://www.w3schools.com/jsref/prop_style_display.asp
+// CSS grid: https://www.w3schools.com/css/css_grid.asp
+
+Icones:
+Kracken: https://www.vecteezy.com/vector-art/71570614-mythical-kraken-sea-monster-silhouette
+accueil: https://www.vecteezy.com/vector-art/26612607-minimal-home-icon-simple-solid-style-web-homepage-website-house-internet-app-ui-design-home-page-button-interface-concept-glyph-vector-illustration-isolated-on-white-background-eps-10
+panier:  https://icons8.com/icons/set/cart 
+iconFiltres: https://www.svgrepo.com/svg/379926/adjust-horizontal-settings
+poissonProduit: https://icons8.com/icon/x6G1X08IvoOe/fish
+
+CreaturesMarins: 
+alligator: https://www.pexels.com/photo/sunbathing-albino-alligator-25466529/
+angler: https://share.google/zuThNlhZl8fudOifO
+barracuda: https://pixabay.com/photos/barracuda-blue-predatory-fish-sea-10408814/
+cone snail: https://otlibrary.com/conus-snail/
+dragon eel: https://www.pexels.com/photo/close-up-of-a-stunning-dragon-moray-eel-in-reef-36121123/
+electric eel: https://pixabay.com/photos/eel-electric-fish-underwater-dark-10198425/
+stingray: https://share.google/9p1UJN9gcMTHJhIT3
+pacific octopus: https://www.pexels.com/photo/orange-octopus-on-green-stone-2902860/
+lionfish: https://share.google/IyzxSuTiCDe6UgS26
+moray: https://pixabay.com/photos/moray-snake-the-fish-fish-sea-4918853/
+sea snake: https://the-most-exteme.fandom.com/wiki/Sea_Snake
+snapping turtle: https://pixabay.com/cs/photos/%C5%BEelva-%C4%8Delistnat%C3%A1-%C5%BEelva-10524685/
+stone fish: https://www.rawpixel.com/search/stone%20fish?page=1&path=1522&sort=curated
+
