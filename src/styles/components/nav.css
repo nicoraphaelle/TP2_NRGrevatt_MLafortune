@@ -36,6 +36,9 @@ ul li img {
 span{
     font-size: 1.10rem;
     display:none;
+    color: #0B1520;
+    text-decoration-color:#0B1520;
+    text-decoration: underline;
 }
 
 /* afficher les icons seulement dans mode mobile + le texte seulement dans mode web */
