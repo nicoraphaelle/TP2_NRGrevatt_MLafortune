@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/tp2-nrgrevatt-mlafortune/',
+    base: '/TP2_NRGrevatt_MLafortune/',
 
     server: {
         open: '/selectionProduits.html'
