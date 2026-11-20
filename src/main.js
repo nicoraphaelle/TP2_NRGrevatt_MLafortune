@@ -51,10 +51,13 @@ function checkFilters() {
     ...document.querySelectorAll('#containerFiltres input:checked')
   ];
 
-  //separer les filtres par categorie
+  //separer les filtres par categorie + trouver les filtres checked pour chaque categorie
+  // .filter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+  // .map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+  // .map fait un nouveau array utilisant les filtres / criteres de selection
   const filters = {
     availability: checkedFilters
-      .filter(filter => filter.name === "availability")
+      .filter(filter => filter.name === "availability") // le nouveau array aurait contenir seulement les filtres actives pour "availability"
       .map(filter => filter.value),
 
     saltwater: checkedFilters
@@ -78,7 +81,7 @@ function filterProducts() {
   return productList.filter(product => {
 
     if (filters.availability.length > 0 &&
-        !filters.availability.includes(String(product.availability))) {
+        !filters.availability.includes(String(product.availability))) { //cherche pour les strings acceptables pour chaque categorie
       return false;
     }
 
@@ -92,17 +95,17 @@ function filterProducts() {
       return false;
     }
 
-    return true;
+    return true; // retourne seulement les produits qui correspondent a tous les filtres actives
   });
 }
 
 //montrer les produits choisis dans le grille
 
 function displayProducts() {
-  const filteredProducts = filterProducts(); //faire reference aux resultats de filterProducts
+  const filteredProducts = filterProducts();                       //faire reference aux resultats de filterProducts
 
   // loop les produits pour montrer les cartes
-  productList.forEach(product => {
+  productList.forEach(product => {                                 //comme un for loop
     const element = document.getElementById(product.idTag);
 
     // les produits qui sont acceptables (nico)
