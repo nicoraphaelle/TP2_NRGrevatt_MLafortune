@@ -36,6 +36,8 @@
     padding: 24px 20px;
     box-sizing: border-box;
     position: static;
+    width: 100%;
+    height: auto;
 }
 
 .accueil header nav ul {
@@ -45,6 +47,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-content: flex-start;
+    height: auto;
 }
 
 .accueil footer {
@@ -53,6 +57,10 @@
     padding: 24px 20px;
     box-sizing: border-box;
     border-top: 1px solid #394452;
+    background-color: transparent;
+    color: #d9e7ec;
+    display: block;
+    height: auto;
 }
 
 .accueil {
@@ -102,6 +110,8 @@
     list-style: none;
     padding: 0;
     margin: 24px 0 0;
+    justify-content: flex-start;
+    height: auto;
 }
 
 .accueil .categories a {
@@ -127,4 +137,8 @@
 
 .accueil header nav a {
     color: #07151c;
+}
+
+.accueil footer p {
+    margin: 0;
 }
