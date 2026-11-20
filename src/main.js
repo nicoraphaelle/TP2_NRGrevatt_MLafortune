@@ -23,6 +23,7 @@ buttonFiltres?.addEventListener('click', () => {
     }
 });
 
+//Nico---------------------------------------------------------------------------------------------------------
 //creer un array avec les produits et les filtres (nico)
 // object constructor: https://www.w3schools.com/js/js_object_constructors.asp
 function product(idTag,availability,type,saltwater){
@@ -59,7 +60,7 @@ function checkFilters() {
     ...document.querySelectorAll('#containerFiltres input:checked')
   ];
 
-  //separer les filtres par categorie + trouver les filtres checked pour chaque categorie
+  //separer les filtres par categorie + trouver les filtres checked pour chaque categorie (nico)
   // .filter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
   // .map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
   // .map fait un nouveau array utilisant les filtres / criteres de selection
